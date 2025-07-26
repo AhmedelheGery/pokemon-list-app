@@ -79,7 +79,7 @@ const PokemonPaginatedList: React.FC = () => {
     fetchPokemon();
   }, [currentPage]);
 
-  const handlePageChange = (event: React.ChangeEvent<unknown>, value: number) => {
+  const handlePageChange = (_: React.ChangeEvent<unknown>, value: number) => {
     setCurrentPage(value);
   };
 
