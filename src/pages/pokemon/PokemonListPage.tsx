@@ -28,7 +28,7 @@ const PokemonListPage: React.FC = () => {
           sx={{
             '& .Mui-selected': {
               bgcolor: '#000',
-              color: '#fff',
+              color: 'white',
               border: 0,
               outline: 'none',
             },
